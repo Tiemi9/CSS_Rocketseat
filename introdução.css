@@ -1,0 +1,24 @@
+* {
+    margin: 0
+  }
+  
+  #container {
+    width: 250px;
+  }
+  .m-40 {
+    margin: 40px;
+  }
+  h1 {
+      color: blue;
+      front-side: 150px;
+      Background: grey;
+      width: 300px;
+      }
+  
+  h2, h3 {
+    Color: red;
+    front-side: 40px;
+    Background: yellow;
+      
+  }
+  /*colocar comentários dentro de barra e aspas*/

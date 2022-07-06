@@ -1,0 +1,38 @@
+#mytittle {
+    color: blue; /* Style="Color" tem mais força devido especificidade*/
+  }
+  .tittle {
+    color: gray;/* mesmo que pela ordem esse deveria ter mais força do que o " my tittle" acima, porém devido especificidade, acaba sendo mais forte*/
+  }
+  h1.tittle#my-tittle {
+    Color: purple; /* Colocamos mais força aqui com a junção de todas as especificidades*/
+  }
+  
+  h1 {
+    Color: purple; /* mesmo que pela ordem esse deveria ter mais força do que o "tittle" acima, porém devido especificidade, acaba sendo mais forte*/
+  }
+#dobletitle, 
+#dobletitle strong {
+    Color: orange;  
+}
+
+  * {
+    Color: green;
+  }
+  h2 {
+    color: red;
+    }
+  
+  h2 {
+    font-size: 2xp;
+  }
+    
+
+  /*Podemos fazer da seguinte forma:
+  body h1 {
+    Color: purple;
+  } 
+  porém dessa forma não tem muita força.*/
+
+  /* regra important sobressai a todas as demais regras da cascata '!important,*/
+

@@ -1,0 +1,18 @@
+/* EXEMPLO DA FUNÇÃO CAUCULO calc()*/
+
+body { /*body não tem altura definida por padrão, se estende proporcionalmete dependendo do elemento que tem dentro, por isso é necessario inserir um valor*/
+    height: 100vh; /*vh = viewport height, ou seja, 100% da 'tela'*/
+    margin: 0; /*para remover ou definir margem se necessario*/
+}
+.box {
+    height: calc(50% + 20px); /*para essa função é necessário uma referencia, por isso inluimos uma referencia para body*/
+    width: 400px;
+    background-image: url(http://source.unsplash.com/random);
+    background-repeat: no-repeat;
+    background-position: right 50px;  
+    }
+
+    .box::after { /*pseudo-elemt*/
+        content: "aqui vem alguma mensagem"; /*texto em aspas = string*/
+        color: white; /*white = idenificador*/
+    }

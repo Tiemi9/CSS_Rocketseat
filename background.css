@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+}
+
+header {
+    height: 300px;
+    border: 7px dashed rgb(60, 47, 245);
+    padding: 20px;
+    
+
+    background: linear-gradient(rgba(209, 39, 209, 0)); /*cor*/
+    background-image: url(http://source.unsplash.com/random);
+    background-repeat: no-repeat; /*repetição da imagem na tela, podendo ser repeat-x (horizontal) ou y (vertical)*/
+    background-position: center center; /*right, left, bottom, top, se colocar só uma propriedade, irá aplicar tanto para x(1°) como y(2°)*/
+    background-size: 15%; /*contain (dentro), cover (cobre todo o fundo), porcentasgem (se um valor, aplicará somente p/ x*/
+    background-origin: content-box; /*content-box (padão, dentro da borda), border-box (imagem pega tudo, inclusive a borda) ou padding-box (a partir do padding- do contepudo à borda)*/
+    background-clip: padding-box; /*segunda borda, pode ser: borde-box (padrão), content-box (forma uma borda dentro da borda, padding-box (forma uma borda na borda*/
+    background-attachment: scroll; /*responsavel por ficxar ou permitir que a imagemseja scrollada*/
+    
+   /* background: linear-gradient(rgba(209, 39, 209, 0), rgba(40, 233, 233, 2)), rgb(252, 44, 44) url(http://source.unsplash.com/random) no-repeat top center / 500px border-box border-box fixed;*/
+  }
+
+  /* Shorthand - resumido*/
+
+  /*background: rgb(55 100 50) url(http://source.unsplash.com/random) no-repeat right top / 50px border-box content-box fixed;*/

@@ -1,0 +1,23 @@
+div {
+    font-size: 18px;
+}
+p {
+    font-size: 2em; 
+}
+    /*Ao determinar p como 2 em, irá multiplicar pelos px em div, pois div é elemento pai*/
+ /* caso não haja nenhum valor determinado em div (elemento pai nesse caso), então a font-size ira buscar o padrão da raiz (root/html) costuma ser 16px*/
+
+/*caso queira buscar o valor em html, mesmo com div determinado, então deverá usar rem no lugar de rm*/
+
+/* EXEMPLO
+:ROOT {} ou html {
+font-size:22px;
+}
+div {
+    font-size: 36px;
+}
+p {
+    font-size: 2Rem;
+}
+*/
+

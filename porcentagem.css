@@ -1,0 +1,13 @@
+html {
+    font-size: 50%;
+}       /* a porcentagem, nesse caso é relativa ao padrão do brouwser, 16px*/
+
+li {
+    font-size: 80%;
+} /*nesse casso, cada lista é relativa a anterior, ou seja, a primeira é relativa ao elemento raiz, a segunda relativa a primeira e a terceira relativa a segunda.*/
+
+div {
+    background-color: blue;
+    width: 50%; /*pegando valor do pai, nesse caso o body*/
+    height: 100px;
+}

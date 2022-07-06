@@ -1,0 +1,47 @@
+Media queries - Consulta de Mídias
+Fazer um site com um layout adaptável é chamado de Web Design Responsivo. E as media query CSS são uma das partes mais importantes do design responsivo. Neste artigo, vamos dar uma olhada mais de perto nas media queries e como usá-las em CSS.
+
+O que é uma media query?
+Media query um recurso CSS3 que faz com que uma página da Web adapte seu layout a diferentes tamanhos de tela e tipos de mídia.
+
+Sintaxe
+
+@media media type and (condition: breakpoint) { }
+
+@media tipo de míedia && (condição: ponto de interrupção) { }
+
+Podemos direcionar diferentes tipos de mídia sob uma variedade de condições. Se a condição e / ou os tipos de mídia atenderem, as regras dentro da media query serão aplicadas, caso contrário, não.
+
+@Regra de mídia
+
+Começamos definindo media query a regra @media e depois incluímos regras CSS entre chaves. A regra @ media também é usada para especificar os tipos de mídia de destino.
+
+@media () { }
+
+Parêntese
+
+Dentro dos parênteses, definimos uma condição. Por exemplo, desejo aplicar um tamanho de fonte maior para dispositivos móveis. Para fazer isso, precisamos definir uma largura máxima que verifica a largura de um dispositivo:
+
+.text { font-size: 14px; } @media (max-width: 480px) { .text { font-size: 16px; } }
+
+Normalmente, o tamanho do texto será de 14px. No entanto, como aplicamos uma media query, ela mudará para 16px quando um dispositivo tiver uma largura máxima de 480px ou menos.
+
+Importante: Sempre coloque suas media queries no final de seu arquivo CSS.
+
+Pontos de interrupção comuns: existe uma resolução padrão?
+
+Uma das perguntas mais frequentes é “Qual ponto de interrupção devo usar?”. Há uma tonelada de dispositivos no mercado, então não podemos e não devemos definir pontos de interrupção fixos para cada um deles.
+
+Usados ​​na programação diária. Se você estiver usando uma estrutura CSS (como Bootstrap, Bulma, etc.), você também pode usar seus pontos de interrupção.
+
+320px - 480px: Dispositivos móveis
+
+481 px - 768 px: iPads, tablets
+
+769 px - 1024 px: telas pequenas, laptops
+
+1.025 px - 1.200 px: desktops, telas grandes
+
+1201 px e mais - telas extragrandes, TV
+
+Como eu disse acima, esses pontos de interrupção podem ser diferentes e não há um padrão definido exatamente, mas esses são alguns dos mais usados.

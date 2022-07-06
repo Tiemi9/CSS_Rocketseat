@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+} /* o padrão das margens é 8px, dessa forma definimos como padrão 0*/
+
+div, section {
+    border: 1px solid rebeccapurple;
+    width: 100px;
+    height: 100px;
+    display: inline;
+    margin: 0 2px;
+}
+
+div {
+    margin-bottom: 8px;
+}
+
+section {
+    margin-top: 8px;
+}
+
+p {
+  margin-top:8px;
+}
+
+/*collapsing significa que as margens se juntam quando estão uma acima da outra (block)*/
+ p {
+    border: 1px solid rebeccapurple;
+    width: 100px;
+    height: 100px;
+
+    margin: 0 auto; /*centraliza na horizontal, mesmo assim ideal é colocar valor antes como (0)                    */
+     
+ }
+
+ /*quando lado a lado (inline) as margens definidas são somadas*/
+/* podemos usar o valor de margin em porcentagem*/
+ 

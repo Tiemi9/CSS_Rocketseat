@@ -1,0 +1,17 @@
+div {
+    height: 100px;
+    border: 1px solid rebeccapurple;
+    width: 10px;
+} /*respeita parametros inseridos pois é um dplay block*/
+
+span {
+    width: 10px;
+    height: 100px;
+    border: 1px solid red;
+} /* não respeita pois é inline*/                                                                           
+
+/*
+    para manter o mesmo padrão em ambos inserir:
+        display: block p/ inline
+        display: inline p/ block
+*/

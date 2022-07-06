@@ -1,0 +1,9 @@
+* {
+    margin: 0;
+} /* o padrão das margens é 8px, dessa forma definimos como padrão 0*/
+
+div, section {
+    border: 1px solid rebeccapurple;
+   padding: 10px 2em 8px 50%; /*pode ser em porcentagem ou em*/
+}
+

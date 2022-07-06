@@ -1,0 +1,26 @@
+div, section {
+    width: 50px;
+    height: 50px;
+    margin: 10% auto;
+    
+    border: 20px solid blue;
+    border-top: 2px dotted palevioletred;
+
+    outline: powderblue 4px solid; /*não muda o tamanho da caixa como o border, nem permite alterações individuais, não precisa ser retangular e é o mais usado pelo 'user agent'  devido acessibilidade*/
+    
+}
+ p {
+    border: 1px solid rebeccapurple;
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;   
+    
+    border-top: red solid 1em; /*não esquecer que esse valor se soma a width para isso não ocorrer usar box-sizing: border-box;*/
+    border-right: 10px double orange;
+    border-bottom: 1em groove pink;
+ }
+
+ /*caso não queira alguma borda colocar "none"
+ para geral usar so border, e adicionar demais caso queira*/    
+ 
+ 
